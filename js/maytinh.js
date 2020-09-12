@@ -84,23 +84,26 @@ function daubang(){
         case 1:
             c = a + b;
             document.getElementById("screen").innerText = c;
-            ketQua = document.getElementById("screen").textContent;
+
             break;
         case 2:
             c = a - b;
             document.getElementById("screen").innerText = c;
-            ketQua = document.getElementById("screen").textContent;
+
             break;
         case 3:
             c = a * b;
             document.getElementById("screen").innerText = c;
-            ketQua = document.getElementById("screen").textContent;
+
             break;
         case 4:
             c = a / b;
             document.getElementById("screen").innerText = c;
-            ketQua = document.getElementById("screen").textContent;
+
             break;
+        case "":
+            document.getElementById("screen").innerText = a;
 
     }
+    ketQua = "";
 }
